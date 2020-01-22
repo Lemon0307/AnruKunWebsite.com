@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bowlby+One+SC|Lobster&display=swap');
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+body {
+	background-color: black;
+}
+
+.content {
+	background-color: white;
+	width: absolute;
+	height: absolute;
+	padding: 10px;
+	font-family: 'Bowlby One SC', cursive;
+	animation: fadeIn 1.5s;
+}
+
+.head {
+	font-family: 'Bangers', cursive;
+	color: white;
+	left: 150px;
+	top: 30px;
+	position: absolute;
+	animation: fadeIn 1.5s;
+
+}
+
+.topbar {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 5px;
+	background-color: white;
+	border-color: transparent;
+	font-size: 15px;
+	font-family: 'Lobster', cursive;
+	transition: 1.5s ease-in-out;
+	animation: fadeIn 1.5s;
+}
+
+.logo {
+	width: 120px;
+	border-radius: 50px;
+
+}
+
